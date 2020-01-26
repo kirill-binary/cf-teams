@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shower Presentation Engine</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="shower/themes/material/styles/styles.css">
+    <style>
+        .shower {
+            --slide-ratio: calc(16 / 9);
+        }
+    </style>
+</head>
+<body class="shower list">
+
+    <header class="caption">
+        <h1>Cross-Functional Teams</h1>
+        <p>Kirill Sysoev</p>
+    </header>
+
+    <section class="slide" id="cover">
+        <div class="shout">
+            <h2>Cross-Functional Teams</h2>
+            <p>Brought to you by Kirill Sysoev</p>
+        </div>
+        <style>
+            #cover h2 {
+                margin: 30px 0 0;
+                color: white;
+                text-align: center;
+                font-size: 70px;
+                font-weight: 600;
+            }
+
+            #cover p {
+                margin: 250px 150px 0;
+                text-align: right;
+                color: white;
+                font-style: italic;
+                font-size: 16px;
+            }
+        </style>
+    </section>
+
+    <section class="slide">
+        <h2>What is cross-functional team?</h2>
+        <p>A cross-functional team is a group of people with different functional expertise working toward a common goal. Team members must have all of the skills necessary to create an increment of work.</p>
+    </section>
+
+
+    <section class="slide">
+        <h2>Our components teams:</h2>
+        <ul>
+            <li>Frontend department</li>
+            <li>Backend department</li>
+            <li>DBA department</li>
+            <li>Quality Assurance Department</li>
+            <li>DevOps Department</li>
+        </ul>
+    </section>
+
+    <section class="slide" id="workflow">
+        <h2>Lets take a look at work flow:</h2>
+        <div class="columns three">
+            <ul start="10"> 
+                <li>Request for feature</li>
+                <li class="next">BE writing code</li>
+                <li class="next">BE and DBA review</li>
+                <li class="next">BE rewrite DB part</li>
+                <li class="next">Again review</li>
+                <li class="next">QA test</li>
+                <li class="next">BE fix bugs</li>
+            </ul>
+            <ul>
+                <li class="next">QA testing</li>
+                <li class="next">Relise BE core</li>
+                <li class="next">FE write code</li>
+                <li class="next">FE request new fuctionality from BE</li>
+                <li class="next">BE writing code</li>
+                <li class="next">BE reviewing</li>
+            </ul>
+            <ul>
+                <li class="next">QA testing</li>
+                <li class="next">Relise BE code</li>
+                <li class="next">FE writing a code</li>
+                <li class="next">FE reviewing</li>
+                <li class="next">QA testing</li>
+                <li class="next">Relise FE code</li>
+            </ul>
+        </div>
+        <style>
+            #workflow ol li {
+                margin: 0 ;
+                font-size: 20px;
+            }
+        </style>
+    </section>
+
+    <section class="slide">
+        <h2>Problems with components teams:</h2>
+        <ul>
+            <li>Inefficient communication</li>
+            <li>Each team has own priorities</li>
+            <li>Complicated planning</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>How to deliver new feature to production:</h2>
+        <ul>
+            <li>Communications between different teams takes time</li>
+            <li>Each team has their own priorites </li>
+            <li>FE do code change</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Tuckman's model:</h2>
+        <figure>
+            <img class="cover" src="pictures/tuckman.png" alt="Tuckman's stages of group development">
+        </figure>
+    </section>
+
+    <section class="slide">
+        <h2>Who could be part of the team:</h2>
+        <ul>
+            <li><b>Product Owner</b></li>
+            <li>BE Developer</li>
+            <li>FE Developer</li>
+            <li>QA Enginer</li>
+            <li>DBA Developer</li>
+            <li>Designer</li>
+            <li>Copywriter</li>
+            <li>Business Analyst</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Who could be part of the team:</h2>
+        <ul>
+            <li><b>Product Owner</b></li>
+            <li>BE Developer</li>
+            <li>FE Developer</li>
+            <li>QA Enginer</li>
+            <li>DBA Developer</li>
+            <li>Designer</li>
+            <li>Copywriter</li>
+            <li>Business Analyst</li>
+        </ul>
+    </section>
+
+    <section class="slide" id="questions">
+        <h2 class="shout">Any Questions?</h2>
+    </section>
+
+    <div class="progress"></div>
+
+    <script src="shower/shower.min.js"></script>
+    <!-- Copyright © 3000 Yours Truly, Famous Inc. -->
+
+</body>
+</html>
